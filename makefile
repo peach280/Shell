@@ -1,0 +1,2 @@
+shell: shell.c tokenize_input.c built_in.c ls.c process_info.c process_launch.c relative_path.c  
+	gcc -o shell shell.c tokenize_input.c built_in.c ls.c process_info.c process_launch.c relative_path.c  -I.
